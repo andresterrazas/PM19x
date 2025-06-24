@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import { View, Text, Button, StyleSheet, Alert, Platform } from "react-native";
-import { isEnabled } from "react-native/Libraries/Performance/Systrace";
 
 export default function App() {
   const showAlert = (message) => {
